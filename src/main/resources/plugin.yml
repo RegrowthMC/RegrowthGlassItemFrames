@@ -2,4 +2,4 @@ name: RegrowthGlassItemFrames
 version: ${version}+${commit}
 main: org.lushplugins.regrowthglassitemframes.RegrowthGlassItemFrames
 api-version: '1.21'
-github-repo: ProjectOwner/RegrowthGlassItemFrames
+github-repo: RegrowthMC/RegrowthGlassItemFrames
