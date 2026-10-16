@@ -15,15 +15,18 @@ repositories {
     mavenCentral()
     maven("https://oss.sonatype.org/content/groups/public/")
     maven("https://repo.papermc.io/repository/maven-public/") // Paper
+    maven("https://repo.lushplugins.org/snapshots/") // LushLib
 }
 
 dependencies {
     // Dependencies
     compileOnly("io.papermc.paper:paper-api:26.2.build.+")
 
-    // Soft Dependencies
-
     // Libraries
+    implementation("org.lushplugins.lushlib:utils:1.0.2")
+    implementation("io.github.revxrsal:lamp.common:4.0.0-rc.19")
+    implementation("io.github.revxrsal:lamp.bukkit:4.0.0-rc.19")
+    implementation("fr.skytasul:glowingentities:2.0.2")
 }
 
 java {
