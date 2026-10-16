@@ -1,9 +1,9 @@
-package org.lushplugins.projectname;
+package org.lushplugins.regrowthglassitemframes;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class ProjectName extends JavaPlugin {
-    private static ProjectName plugin;
+public final class RegrowthGlassItemFrames extends JavaPlugin {
+    private static RegrowthGlassItemFrames plugin;
 
     @Override
     public void onLoad() {
@@ -20,7 +20,7 @@ public final class ProjectName extends JavaPlugin {
         // Disable implementation
     }
 
-    public static ProjectName getInstance() {
+    public static RegrowthGlassItemFrames getInstance() {
         return plugin;
     }
 }

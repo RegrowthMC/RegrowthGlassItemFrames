@@ -1,5 +1,5 @@
-name: ProjectName
+name: RegrowthGlassItemFrames
 version: ${version}+${commit}
-main: org.lushplugins.projectname.ProjectName
+main: org.lushplugins.regrowthglassitemframes.RegrowthGlassItemFrames
 api-version: '1.21'
-github-repo: ProjectOwner/ProjectName
+github-repo: RegrowthMC/RegrowthGlassItemFrames
