@@ -26,7 +26,7 @@ dependencies {
     implementation("org.lushplugins.lushlib:utils:1.0.2")
     implementation("io.github.revxrsal:lamp.common:4.0.1")
     implementation("io.github.revxrsal:lamp.bukkit:4.0.1")
-    implementation("fr.skytasul:glowingentities:2.0.2")
+    implementation("fr.skytasul:glowingentities:2.1.0")
 }
 
 java {
